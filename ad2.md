@@ -1,8 +1,8 @@
 # Actividad dirigida 2
 
-En cuanto a la práctica de Web Scraping realizada sobre los #Datos de los Juegos Olímpicos de 2020#(https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/). Lo primero que realizamos fue la creación de una librerías #requests#(https://docs.python-requests.org/en/latest/), que es utilizada para importar los datos de una web y las peticiones. Importaremos el #Beautiful Soup#(https://www.crummy.com/software/BeautifulSoup/bs4/doc/), que es una biblioteca de Python para analizar documentos HTML que te has descargado.
+En cuanto a la práctica de Web Scraping realizada sobre los [Datos de los Juegos Olímpicos de 2020](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/). Lo primero que realizamos fue la creación de una librerías [requests](https://docs.python-requests.org/en/latest/), que es utilizada para importar los datos de una web y las peticiones. Importaremos el [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), que es una biblioteca de Python para analizar documentos HTML que te has descargado.
 
-El siguente paso será el de definir las variables de estudio del documento junto con la definción de la #URL#(https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/). Para poder estudiar y definir la muestra en función de los datos disponibles en la web elegida.
+El siguente paso será el de definir las variables de estudio del documento junto con la definción de la [URL](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/). Para poder estudiar y definir la muestra en función de los datos disponibles en la web elegida.
 
 Continuamos con la petición a la web, con la primera variable definida (Si el estatus code no es 200 no se puede leer la página).
 Con las primeras condiciones de búsqueda presentadas en con los if.
@@ -11,7 +11,7 @@ Pasamos de resquests a BeautifulSoup, que significa el objeto BeautifulSoup repr
 
 Definimos las variables de datos: las variables paises, oros, platas, bronces y totales; y las identificamos con la función find_all(), que significa buscar todos y analizar todas estas variables de datos (relacionados con los Juegos Olímpicos).
 
-Hacemos la pregunta definitiva que nos dará paso a la solución final, la pregunta es un método de asegurarse de que el usuario quiere recibir el listado del #País#(https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/)
+Hacemos la pregunta definitiva que nos dará paso a la solución final, la pregunta es un método de asegurarse de que el usuario quiere recibir el listado del [País](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/)
 
 Bucle para obtener los datos, que tiene la funcionalidad de obtener todos los divs, donde están las entradas. El bucle se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código.
 
