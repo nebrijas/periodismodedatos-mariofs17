@@ -11,7 +11,7 @@ A continuación importamos las librerías import pandas as pd
 La [URL](https://api.covid19api.com/countries "URL") es básica para que el programa trabaje con unos datos y pueda crear los listados y tablas. En este caso hace referencia a los datos disponibles del COVID-19. 
 
 ## Creación de dataframe
-Utilizamos la función ````read_json´´´´ para leer los datos en JSON de la API:
+Utilizamos la función ```read_json``` para leer los datos en JSON de la API:
 Básicamnete el dataframe sirve para guardar datos en distintos tipos de columnas o tablas. Conocido como "cruzar datos".
 
 
