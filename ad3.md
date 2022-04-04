@@ -21,7 +21,7 @@ Básicamente el dataframe sirve para guardar y manipular conjuntos datos en dist
 - Info
 
 Para explorar los datos de la tabla utilizaremos el código ```df.tail ()``` . Con el paréntesis podemos determinar el número concreto de la fila que queremos visualizar. Si el paréntesis está vacío, el propio programa nos dará los 5 primeros o últimos valores (head o cola tail)
-Con la función df.describe() se realizó una descripción númerica de la tabla y con el código df.info(), se pudo consultar un resumen del dataframe con el fin de conocer si hay o no celdas vacías en esta tabla.
+Con la función df.describe() se realizó una descripción númerica de la tabla y con el código df.info(), se pudo consultar un resumen del dataframe con el fin de conocer si hay o no celdas vacías en esta tabla. Df significa dataframe.
 
 ## Acceso a datos
 
