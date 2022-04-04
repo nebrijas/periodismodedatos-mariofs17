@@ -15,8 +15,11 @@ Utilizamos la función ```read_json``` para leer los datos en JSON de la API:
 Básicamente el dataframe sirve para guardar y manipular conjuntos datos en distintos tipos de columnas o tablas. Conocido como "cruzar datos". 
 
 
-
 ## Explorar tabla
+Cabecera
+Cola
+Info
+
 
 ## Acceso a datos
 
