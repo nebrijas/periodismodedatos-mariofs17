@@ -16,9 +16,9 @@ Básicamente el dataframe sirve para guardar y manipular conjuntos datos en dist
 
 
 ## Explorar tabla
-Cabecera
-Cola
-Info
+- Cabecera
+- Cola
+- Info
 
 
 ## Acceso a datos
