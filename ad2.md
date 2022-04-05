@@ -17,7 +17,7 @@ Bucle para obtener los datos, que tiene la funcionalidad de obtener todos los di
 
 Al ejecutar el bucle, hemos programado para que salgan los resultados de búsqueda y si la función es falsa, salga "Qué lástima, y...".
 
-
+[scraping](https://github.com/nebrijas/periodismodedatos-mariofs17/blob/main/scraping.ipynb)
 
 
 ```
