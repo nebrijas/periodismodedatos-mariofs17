@@ -24,6 +24,11 @@ Para explorar los datos de la tabla utilizaremos el código ```df.tail ()``` . C
 Con la función df.describe() se realizó una descripción númerica de la tabla y con el código df.info(), se pudo consultar un resumen del dataframe con el fin de conocer si hay o no celdas vacías en esta tabla. Df significa dataframe.
 
 ## Acceso a datos
+En este apartado, lo que queremos es tener acceso a los datos que se encuentren bajo el nombre de **"Country"** y que estos se muestren en columnas, por lo que haremos uso del Data Frame a través de la siguiente orden: ```df['Country']```.
+
+Asimismo, en este apartado, quisimos hacer una búsqueda más concreta, por lo que no solo buscamos los datos que se encontrasen bajo el nombre de **"Country"**, sino que se imprimiera justo el país que aparece en la posición *200* de la lista a través de la orden ```df['Country'][200]```, en el que el resultado fue Angola.
+
+
 
 ## Tiempo real España
 
