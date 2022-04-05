@@ -30,7 +30,9 @@ Además, hicimos una prueba para que se imprimiera justo el país que aparece en
 
 
 ## Tiempo real España
+Comenzaremos con la búsqueda en profundidad de los datos de España. Lo primero es ejecutar la [URL ESPAÑA](https://api.covid19api.com/country/spain/status/confirmed/live "URL"), donde vamos a obtener los datos acerca del desarrollo del COVID en España
 
+Ahora vamos a estudiar España. Para ello lo primero ponemos la URL de donde queremos extraer los datos. Utilizamos la función read_json de Pandas para leer los datos en JSON de la API. Además, como queremos que sea en tiempo real usamos url_live.
 ## Tiempo real Colombia
 
 ## Comparativa España-Colombia
