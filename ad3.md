@@ -30,6 +30,7 @@ Además, hicimos una prueba para que se imprimiera justo el país que aparece en
 
 
 ## Tiempo real España
+
 Comenzaremos con la búsqueda en profundidad de los datos de España. Lo primero es ejecutar la [URL ESPAÑA](https://api.covid19api.com/country/spain/status/confirmed/live "URL"), donde vamos a obtener los datos acerca del desarrollo del COVID en España
  A continuación, utilizamos la función ```read_json``` para leer los datos en JSON y utilizaremos la función ```url_live``` para poder estudiar los datos en tiempo real.
 Para poder obtener la información de toda la tabla utilizamos la función ```df_es.info``` y utilizamos ```set_index``` para hacer un gráfico de líneas. Además de convertir la columna de datos de fecha en la columna del índice.
@@ -41,6 +42,14 @@ También editamos o personalizamos la tabla con un título, con la función ```t
 Basicamente es repetir todos los pasos que hemos realizado con España, pero con una URL distinta. [URL Colombia](https://api.covid19api.com/country/colombia/status/confirmed/live "URL")
 
 ## Comparativa España-Colombia
+
+En este apartado, lo básico es la concanetación de datos. Que sirve para poder comparar los datos y juntar las cadenas de caracteres.
+
+```casos_es = df_es.set_index('Date')['Cases']```
+```casos_co = df_co.set_index('Date')['Cases']```
+```casos_co````
+Además, podemos poner nombre a las columnas para diferenciarlas, en el objeto vs.columns ponemos entre corchetes como queremos que se llamen.
+```vs.columns = ['España','Colombia']``` y también podemos definir las comparaciones: ```vs.plot(title="España VS Colombia")```
 
 ## Triple comparativa
 
