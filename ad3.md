@@ -47,7 +47,7 @@ En este apartado, lo básico es la concanetación de datos. Que sirve para poder
 
 ```casos_es = df_es.set_index('Date')['Cases']```
 ```casos_co = df_co.set_index('Date')['Cases']```
-```casos_co````
+```casos_co```
 Además, podemos poner nombre a las columnas para diferenciarlas, en el objeto vs.columns ponemos entre corchetes como queremos que se llamen.
 ```vs.columns = ['España','Colombia']``` y también podemos definir las comparaciones: ```vs.plot(title="España VS Colombia")```
 
