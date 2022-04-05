@@ -1,6 +1,6 @@
 La actividad 3 consistía en explicar los datos y gráficos que hemos obtenido de las dos webs acerca del COVID-19.
 
-[URL1](httpps://covid19api.com/)
+[URL](httpps://covid19api.com/)
     
 [URL2](httpps://api.covid19api.com/)
 
