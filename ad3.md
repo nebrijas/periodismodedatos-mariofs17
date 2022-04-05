@@ -31,9 +31,14 @@ Además, hicimos una prueba para que se imprimiera justo el país que aparece en
 
 ## Tiempo real España
 Comenzaremos con la búsqueda en profundidad de los datos de España. Lo primero es ejecutar la [URL ESPAÑA](https://api.covid19api.com/country/spain/status/confirmed/live "URL"), donde vamos a obtener los datos acerca del desarrollo del COVID en España
+ A continuación, utilizamos la función ```read_json``` para leer los datos en JSON y utilizaremos la función ```url_live``` para poder estudiar los datos en tiempo real.
+Para poder obtener la información de toda la tabla utilizamos la función ```df_es.info``` y utulizamos ```set_index````para hacer un gráfico de líneas. Además de convertir la columna de datos de fecha en la columna del índice.
+También editamos o personalizamos la tabla con un título, con la función ```title``` y pusimos unas [] en el  ```set_index```` para ordenar los datos según la variable que nos interese. 
 
-Ahora vamos a estudiar España. Para ello lo primero ponemos la URL de donde queremos extraer los datos. Utilizamos la función read_json de Pandas para leer los datos en JSON de la API. Además, como queremos que sea en tiempo real usamos url_live.
+
 ## Tiempo real Colombia
+
+Basicamente es repetir todos los pasos que hemos realizado con España, pero con una URL distinta. [URL Colombia](https://api.covid19api.com/country/colombia/status/confirmed/live "URL")
 
 ## Comparativa España-Colombia
 
