@@ -54,13 +54,14 @@ Además, podemos poner nombre a las columnas para diferenciarlas, en el objeto v
 ## Triple comparativa
 
 ## Seleccionar más columnas
+En este apartado, haremos uso de la función: ```df_es.set_index('Date')[['Cases','Lon']]```. Esta obtendrá los datos de España, mostrando la columna **"Date"** como índice de la tabla y después aparecerá la información relativa a los casos (**"Cases"**) y la longitud (**"Lon"**) en las columnas siguientes.
 
 ## Tipos de gráfico
 
 ## Exportar datos
 En este último aparatdo utilizaremos las funciones ```vs.to_csv('vs.csv')```y ```vs2.to_csv('vs2.csv')``` , para guardar ambas comparativas en un archivo CSV (para guardar los datos en un formato de tabla estructurada). 
 También, debemos guardar los gráficos relativos utilizando la siguiente función: ```grafico =vs.plot() fig = grafico.get_figure() fig.savefig('vs.png')```.
-Los archivos se guardarán en png
+Los archivos se guardarán en png.
  
 
 
