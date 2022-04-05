@@ -42,7 +42,10 @@ Además, hicimos una prueba para que se imprimiera justo el país que aparece en
 ## Tipos de gráfico
 
 ## Exportar datos
-
+En este último aparatdo utilizaremos las funciones ```vs.to_csv('vs.csv')```y ```vs2.to_csv('vs2.csv')``` , para guardar ambas comparativas en un archivo CSV (para guardar los datos en un formato de tabla estructurada). 
+También, debemos guardar los gráficos relativos utilizando la siguiente función: ```grafico =vs.plot() fig = grafico.get_figure() fig.savefig('vs.png')```.
+Los archivos se guardarán en png
+ 
 
 
 
