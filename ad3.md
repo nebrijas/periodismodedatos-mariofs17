@@ -32,8 +32,8 @@ Además, hicimos una prueba para que se imprimiera justo el país que aparece en
 ## Tiempo real España
 Comenzaremos con la búsqueda en profundidad de los datos de España. Lo primero es ejecutar la [URL ESPAÑA](https://api.covid19api.com/country/spain/status/confirmed/live "URL"), donde vamos a obtener los datos acerca del desarrollo del COVID en España
  A continuación, utilizamos la función ```read_json``` para leer los datos en JSON y utilizaremos la función ```url_live``` para poder estudiar los datos en tiempo real.
-Para poder obtener la información de toda la tabla utilizamos la función ```df_es.info``` y utilizamos ```set_index````para hacer un gráfico de líneas. Además de convertir la columna de datos de fecha en la columna del índice.
-También editamos o personalizamos la tabla con un título, con la función ```title``` y pusimos unas [] en el  ```set_index```` para ordenar los datos según la variable que nos interese. 
+Para poder obtener la información de toda la tabla utilizamos la función ```df_es.info``` y utilizamos ```set_index``` para hacer un gráfico de líneas. Además de convertir la columna de datos de fecha en la columna del índice.
+También editamos o personalizamos la tabla con un título, con la función ```title``` y pusimos unas [] en el  ```set_index``` para ordenar los datos según la variable que nos interese. 
 
 
 ## Tiempo real Colombia
