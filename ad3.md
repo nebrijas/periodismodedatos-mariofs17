@@ -25,6 +25,8 @@ Con la función df.describe() se realizó una descripción númerica de la tabla
 
 ## Acceso a datos
 
+En esta sección utilizaremos la orden: df['Country'], para obtener los datos que se encuentren en "Country" y que estos se muestren en columnas. 
+Además, hicimos una prueba para que se imprimiera justo el país que aparece en la posición 200 de la lista a través de la orden df['Country'][200], en el que el resultado fue Angola.  
 
 
 ## Tiempo real España
