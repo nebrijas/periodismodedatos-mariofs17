@@ -4,4 +4,4 @@ Este es el repositorio de Mario Fernández Secadas, donde se subirán las activi
 
 - [ad1](https://github.com/nebrijas/periodismodedatos-mariofs17/blob/main/ad1.md)
 - [ad2](https://github.com/nebrijas/periodismodedatos-mariofs17/blob/main/ad2.md)
-- [ad3](https://nebrijas.github.io/periodismodedatos-mariofs17/ad3)
+- [ad3](https://github.com/nebrijas/periodismodedatos-mariofs17/blob/main/ad3.md)
