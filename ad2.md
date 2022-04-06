@@ -6,4 +6,4 @@ En cuanto a la práctica de Web Scraping realizada sobre los [Datos de los Juego
 
 
 
-[sssss](https://nebrijas.github.io/periodismodedatos-mariofs17/scraping.html)
+
