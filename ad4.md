@@ -3,4 +3,6 @@ La actividad 4 realizada en clase:
 
 [mapa](https://nebrijas.github.io/periodismodedatos-mariofs17/tipo%20(1).html)
 
+[mapa_ampliado](https://nebrijas.github.io/periodismodedatos-mariofs17/mapa_ampliado.html)
+
 
