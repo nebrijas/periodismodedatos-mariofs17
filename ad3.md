@@ -2,7 +2,7 @@ La actividad 3 consistía en explicar los datos y gráficos que hemos obtenido d
 
 
 
-- El scraping se encuentra aquí: [api-covid19-pandas.ipynb](https://github.com/nebrijas/periodismodedatos-mariofs17/blob/main/api-covid19-pandas.ipynb)
+- El scraping se encuentra aquí: [api-covid19-pandas.ipynb](https://nebrijas.github.io/periodismodedatos-mariofs17/api-covid19-pandas.html)
 
 
 El resto de documentos:
