@@ -1,6 +1,7 @@
 #COMENTARIO CRÍTICO
 ## Actividad dirigida 1
- [Artículo](https://elpais.com/economia/2020/01/16/actualidad/1579196525_489238.html)
+ 
+ Este es el árticulo que he seleccionado para explicar: [Artículo](https://elpais.com/economia/2020/01/16/actualidad/1579196525_489238.html)
 
 
 El tema elegido es la rentabilidad económica del fútbol y la gran visibilidad que tiene respecto a otros deportes. Además, trataremos de averiguar los motivos por los que se sigue manteniendo en la élite de los deportes más vistos y rentables, a pesar de todas las complicaciones en los últimos años.
